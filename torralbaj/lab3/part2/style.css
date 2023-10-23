@@ -17,7 +17,7 @@ div {
   line-height: 9;
   /* text */
   font-size: 1.125rem;
-  /* Since the default font size is 16px within CSS, I found a way converted it to 1.1rem through a converter. 
+  /* Since the default font size is 16px within CSS, I found a way converted it to 1.1rem through a converter from px to rem. 
   I resized the font to 1.125rem, or 18px, as part of the instructions. */
   text-align: center;
   color: white;
