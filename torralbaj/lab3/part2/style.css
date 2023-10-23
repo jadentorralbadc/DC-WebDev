@@ -1,0 +1,52 @@
+/*
+	Name: Jaden Torralba
+	File: Index.html
+	Date: 20 October 2023
+	This is a cool box made using CSS.
+	*/
+
+/* Your CSS below here */
+html {
+  font-family: sans-serif;
+}
+div {
+  text-decoration: underline;
+  width: 200px;
+  margin: auto;
+  font: small-caps;
+  line-height: 9;
+  /* text */
+  font-size: 1.125rem;
+  /* Since the default font size is 16px within CSS, I found a way converted it to 1.1rem through a converter. 
+  I resized the font to 1.125rem, or 18px, as part of the instructions. */
+  text-align: center;
+  color: white;
+  /*text deco*/
+  text-shadow: 1px 1px 1px black;
+  
+  /*border radius*/
+  border-radius: 30px;
+  border: 1px orangered;
+  
+  /* background */
+  background-color: orangered;
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+    
+    /* other effects */
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+  inset -2px -2px 3px rgba(0, 0, 0, 0.6), 2px 2px 5px black;
+}
+  
+  /*text-decoration: underline;
+  text-align: center;
+  margin: auto;
+  font: small-caps 1.125rem sans-serif;
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  background-color: red;*/
