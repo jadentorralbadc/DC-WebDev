@@ -74,7 +74,7 @@ header, footer {
   font-style: normal;
 }
 
-/* typography stuff */
+/* Typography */
 
 html {
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -87,12 +87,12 @@ letter-spacing: 2px;
 }
 
 h1 {
-font-size: 5rem;
+font-size: 5.2rem;
 text-align: center;
 }
 
 h2 {
-font-size: 3.2rem;
+font-size: 3.5rem;
 }
 
 section h2 + p {
@@ -101,7 +101,7 @@ text-indent: 20px;
 
 p, li {
 font-size: 1.6rem;
-line-height: 1.5;
+line-height: 2;
 letter-spacing: 0.5px;
 word-spacing: 3px;
 }
