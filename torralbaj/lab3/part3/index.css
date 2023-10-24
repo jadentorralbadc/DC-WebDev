@@ -61,25 +61,15 @@ header, footer {
 /* WRITE YOUR CODE BELOW HERE */
 
 @font-face {
-  font-family: 'lovatolight';
-  src: url('fonts/Lovato-Light-webfont.eot');
-  src: url('fonts/Lovato-Light-webfont.eot?#iefix') format('embedded-opentype'),
-       url('fonts/Lovato-Light-webfont.woff2') format('woff2'),
-       url('fonts/Lovato-Light-webfont.woff') format('woff'),
-       url('fonts/Lovato-Light-webfont.ttf') format('truetype'),
-       url('fonts/Lovato-Light-webfont.svg#lovatolight') format('svg');
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  src: unset;
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'josefin_slabbold';
-  src: url('fonts/josefinslab-bold-webfont.eot');
-  src: url('fonts/josefinslab-bold-webfont.eot?#iefix') format('embedded-opentype'),
-       url('fonts/josefinslab-bold-webfont.woff2') format('woff2'),
-       url('fonts/josefinslab-bold-webfont.woff') format('woff'),
-       url('fonts/josefinslab-bold-webfont.ttf') format('truetype'),
-       url('fonts/josefinslab-bold-webfont.svg#josefin_slabbold') format('svg');
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  src: unset;
   font-weight: normal;
   font-style: normal;
 }
@@ -87,12 +77,12 @@ header, footer {
 /* typography stuff */
 
 html {
-font-family: lovatolight, serif;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-size: 10px;
 }
 
 h1, h2 {
-font-family: josefin_slabbold, sans-serif;
+font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 letter-spacing: 2px;
 }
 
