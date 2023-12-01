@@ -1,3 +1,9 @@
+/* Name: Jaden Torralba
+File: main.js
+Date: November 27, 2023
+JavaScript buildup for the image gallery.
+    */
+
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
