@@ -58,6 +58,7 @@ update() {
   this.y += this.velY;
   const balls = [];
 }
+
 collisionDetect() {
   for (const ball of balls) {
     if (this !== ball) {
@@ -70,6 +71,8 @@ collisionDetect() {
       }
     }
   }
+}
+
 }
 
 const balls =[];
@@ -105,3 +108,4 @@ function loop() {
 }
 
 loop();
+
