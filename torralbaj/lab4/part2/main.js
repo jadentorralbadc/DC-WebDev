@@ -37,9 +37,9 @@ newImage.addEventListener('click', e => {
 btn.addEventListener('click', () => {
     const btnClass = btn.getAttribute('class');
     if (btnClass === 'dark') {
-      btn.setAttribute('class','light');
-      btn.textContent = 'Lighten';
-      overlay.style.backgroundColor = 'rgba(0,0,0,0.5)';
+      btn.setAttribute('class','bright');
+      btn.textContent = 'Brighten';
+      overlay.style.backgroundColor = 'rgba(0,0,0,0.52)';
     } else {
       btn.setAttribute('class','dark');
       btn.textContent = 'Darken';
