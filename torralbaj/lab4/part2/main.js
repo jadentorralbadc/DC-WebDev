@@ -18,7 +18,4 @@ newImage.setAttribute('alt', altTexts[images[num]]);
 thumbBar.appendChild(newImage);
 
 /* Wiring up the Darken/Lighten button */
-const button = document.querySelector("button");
 
-button.setAttribute("name", "helloButton");
-button.setAttribute("disabled", "");
