@@ -11,7 +11,7 @@ const btn = document.querySelector('button');
 const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
-const images = ['pic1.jpg','pic2.jpg','pic3.jpg','pic4.jpg','pic5.jpg'];
+const images = ['pic1.jpg',`pic2.jpg`,`pic3.jpg`,`pic4.jpg`,`pic5.jpg`];
 
 /* Declaring the alternative text for each image file */
 const alts = {
@@ -19,7 +19,7 @@ const alts = {
 'pic2.jpg':'random quartz', 
 'pic3.jpg':'violets', 
 'pic4.jpg':'greek art', 
-'pic5.jpg':'butterfly'
+'pic5.jpg':'butterfly',
 }
 /* Looping through images */
 
